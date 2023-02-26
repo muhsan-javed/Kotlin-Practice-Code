@@ -1,4 +1,4 @@
-// What is Class?
+package firstCourse// What is Class?
 
 class CAR{
     var brand = ""
