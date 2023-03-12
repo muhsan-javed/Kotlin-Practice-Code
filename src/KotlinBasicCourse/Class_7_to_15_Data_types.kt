@@ -7,23 +7,22 @@ fun main() {
     val int : Int = 50424
     val long : Long = 984365231
 
-
     val pi: Float = 3.14F
-    println(pi)
+    println("Float : $pi")
 
     val double : Double = 1.4548548545
-    println(double)
+    println("Double : $double")
 
     val char: Char = 'S'
-    println(char)
+    println("Char : $char")
 
     val string :String  = "Muhammad"
-    println(string)
+    println("String : $string")
 
     val name = "Ali"
-    println(name)
+    println("Name : $name")
 
     val boolean:Boolean = false
-    println(boolean)
+    println("Boolean : $boolean")
 
 }
