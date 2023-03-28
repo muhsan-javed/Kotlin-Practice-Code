@@ -5,23 +5,29 @@ class Class_82_Confitional_Statements {
 
 fun main() {
 
+    // Syntax
+    // if (condition){
+    // block of code to be executed if the condition is true
+    // }
+    //else {
+    // block of code to be executed if the condition is false
+    // }
+
     // if else
     var a = 10
     var b = 5
 
-    if (a>b){
+    if (a>b)
         println(a)
-    }else{
+    else
         println(b)
-    }
+
 
     var max : Int
-
     max = if (a<b)
         a
     else
         b
-
     println(max)
 
     // Logical Operator
@@ -33,7 +39,7 @@ fun main() {
 //    val b = 5
     val c = 8
 
-    // &&
+    // AND &&
     if (a>b && a<c){
         println(a)
     }
@@ -43,13 +49,13 @@ fun main() {
         println(c)
     }
 
-    // ||
+    // OR ||
     if (a<b || a>c)
         println("a is grater")
     else
         println("b or c is grater")
 
-    // !
+    // NOT !
     if (a != c)
         println(true)
     else

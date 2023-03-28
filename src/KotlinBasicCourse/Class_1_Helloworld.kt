@@ -70,4 +70,21 @@ fun main() {
     val MAX_VALUEBoolean: Boolean = true
     println("I got grade: $MIN_VALUEChar  in Acdroid. Can I have Coffee? $MAX_VALUEBoolean")
 
+    // Operators
+    //  Kotlin has a set of opreators to prefrom arithmetic assignment, comparison, and more.
+    // 1. Arithmetic Operators + - * / %
+    // 2. Concatenation of Strings
+    // 3. Assignment Operators = += -= *= /= %=
+    // 4. Increment and Equality Operators ++,--
+    // 5. Logical Operators || && !
+
+    val a = 12
+    val b = 8
+    println("Addition ${a+b} ")
+    println("Subtraction ${a-b} ")
+    println("Multiplication ${a*b} ")
+    println("Division ${a/b} ")
+    println("Mod ${a%b} ")
+
 }
+
