@@ -7,6 +7,7 @@ fun main() {
     for (day in Days.values()){
         if (day.holiday){
             println(" $day is a Holiday")
+
         }
     }
 
