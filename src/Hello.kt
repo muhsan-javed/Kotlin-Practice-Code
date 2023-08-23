@@ -75,13 +75,13 @@ fun main() {
 
     // <<<<<<<<<<<<<< Kotlin Operator>>>>>>>>>>>>>
     // <<<<<<< Arithmetic Operator >>>>>>>
-//    var a = 10
-//    var b= 5
-//    println(a+b)
-//    println(a-b)
-//    println(a*b)
-//    println(a/b)
-//    println(a%b)
+    var a = 10
+    var b= 5
+    println("Addition ${a+b}")
+    println("Subtraction ${a-b}")
+    println("Multpi ${a*b}")
+    println("Dir ${a/b}")
+    println("Dir ${a%b}")
 
     // <<<<<<<<<<<<< Relation Operator >>>>>>>>>>>>>>>..
   /*  val a = 10
