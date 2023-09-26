@@ -1,4 +1,4 @@
-package Kotlin_2024_Modules
+package kotlin_2024.Module_One
 
 /*
 class Module_1 {
