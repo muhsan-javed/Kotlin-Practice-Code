@@ -45,4 +45,6 @@ class Person(var names:String, var age:Int) {
 
 class ModuleClass {
 
+    //var profression :String
+    lateinit var profression :String
 }
