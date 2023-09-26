@@ -26,4 +26,30 @@ fun main() {
     val marks: Int = 95
     print(marks)
 
+    // Operators
+    var a =10
+    var b =5
+
+    // Arithmetic Operator
+    println(a+b)
+    println(a-b)
+    println(a*b)
+    println(a/b)
+    println(a%b)
+
+    // Relational Operator
+    println(a>b)
+    println(a<b)
+
+
+    // Increment and  decrement Operator
+    a++
+    a--
+    // pre
+    println(++a)
+    println(a)
+    // post
+    println(a++)
+
+
 }
