@@ -100,7 +100,7 @@ fun main() {
     println(gender)
     println(name)
     println(isActive)*/
-            //  # val - Read-only local variables are defind using the keywood val. They can be assigned only once.
+            //  # val - Read-only local variables are defined using the keyword val. They can be assigned only once.
 
     // val
 //    val roll : Int= 10
