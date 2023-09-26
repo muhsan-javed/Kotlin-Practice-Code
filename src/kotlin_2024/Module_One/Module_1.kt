@@ -15,10 +15,10 @@ fun main() {
 
     // Var | Val
     //val name = "Scaler"
-    var name = "Scaler"
-    name = "Scaler Academy"
-    name= "Kotlin"
-    print(name)
+//    var name = "Scaler"
+//    name = "Scaler Academy"
+//    name= "Kotlin"
+//    print(name)
 
     // Data Types
     var firstName : String = "Scaler"
