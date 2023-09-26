@@ -1,7 +1,6 @@
 package kotlin_2024.Module_Two
 
-class ModelClass {
-
+class ModuleClass {
 }
 
 fun main() {
