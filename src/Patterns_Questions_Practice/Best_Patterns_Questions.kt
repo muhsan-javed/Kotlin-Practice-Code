@@ -11,8 +11,8 @@ fun main() {
     //val n = scanner.nextInt(); // Line Rows
     //val m = scanner.nextInt();
 
-    val n = 5
-    val m = 4
+    val n = 10
+    val m = 9
 
     // Q 1
     // outer loop Rows

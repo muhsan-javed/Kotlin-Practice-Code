@@ -17,7 +17,7 @@ fun main() {
     >>>>>>>
         */
 
-/*  ****    DATA TYPE   ***** */
+    /*  ****    DATA TYPE   ***** */
     //  Int - 10, 20, 300
     //  Long - 23454343, 3453534L
     //  Float - 345.44f , 2.4f
@@ -30,40 +30,40 @@ fun main() {
     // # var - Variables that can be reassigned
 
 
-   /* // ## Dynamic Type
-    var roll = 10
-    var mobileNumber = 339999555L
-    var price = 30.45f
-    var totalCast = 235435.533
-    var gender = 'F'
-    var name = "Muhsan javed"
-    var isActive = true
+    /* // ## Dynamic Type
+     var roll = 10
+     var mobileNumber = 339999555L
+     var price = 30.45f
+     var totalCast = 235435.533
+     var gender = 'F'
+     var name = "Muhsan javed"
+     var isActive = true
 
-    println(roll)
-    println(mobileNumber)
-    println(price)
-    println(totalCast)
-    println(gender)
-    println(name)
-    println(isActive)
+     println(roll)
+     println(mobileNumber)
+     println(price)
+     println(totalCast)
+     println(gender)
+     println(name)
+     println(isActive)
 
-    println("*******************")
-    roll = 10011
-    mobileNumber = 4335454545
-    price = 100.00f
-    totalCast = 1000000.00
-    gender = 'M'
-    name = "Ali hyder"
-    isActive = false
+     println("*******************")
+     roll = 10011
+     mobileNumber = 4335454545
+     price = 100.00f
+     totalCast = 1000000.00
+     gender = 'M'
+     name = "Ali hyder"
+     isActive = false
 
-    println(roll)
-    println(mobileNumber)
-    println(price)
-    println(totalCast)
-    println(gender)
-    println(name)
-    println(isActive)
-    */
+     println(roll)
+     println(mobileNumber)
+     println(price)
+     println(totalCast)
+     println(gender)
+     println(name)
+     println(isActive)
+     */
 
 
     //   ## Specific Type
@@ -100,7 +100,7 @@ fun main() {
     println(gender)
     println(name)
     println(isActive)*/
-            //  # val - Read-only local variables are defined using the keyword val. They can be assigned only once.
+    //  # val - Read-only local variables are defined using the keyword val. They can be assigned only once.
 
     // val
 //    val roll : Int= 10
@@ -176,19 +176,19 @@ fun main() {
 //    val  a = 30
 //    val  b = 20
 //    val  c = 10
-        // AND &&
+    // AND &&
 //    println((a > b) && (b > c))
 //    println((a > b) && (b < c))
 //    println((a < b) && (b > c))
 //    println((a < b) && (b < c))
 
-        // OR ||
+    // OR ||
 //    println((a > b) || (b > c))
 //    println((a > b) || (b < c))
 //    println((a < b) || (b > c))
 //    println((a < b) || (b < c))
 
-        // NOT
+    // NOT
 //    println(a >= b) // New Sietens
 //    println(!(a<b))   // True
 //    println(!(a>b))   // False
@@ -222,7 +222,7 @@ fun main() {
 
     /*      User Input      */
 //    val name = readLine()
-    val name : String? = readLine()
+    val name: String? = readLine()
     println(name)
     println(name!!::class.simpleName) // Check Variable Data Type
 

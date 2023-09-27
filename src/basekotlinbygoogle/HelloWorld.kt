@@ -34,14 +34,14 @@ fun main(args: Array<String>) {
 //    printCakeCandles(age)
 //    printCakeTop(age)
 //    printCakeBottom(age, layers)
-  //  createMessage("muhsan", "Pakistan", 19)
+    //  createMessage("muhsan", "Pakistan", 19)
 
     val num = 5
     if (num > 4) {
         println("The variable is greater than 4")
     }
 
-    val myFirstDice = Dice(6)
+    val myFirstDice = Dice(4)
     val rollResult = myFirstDice.roll()
     val luckyNumber = 4
 
