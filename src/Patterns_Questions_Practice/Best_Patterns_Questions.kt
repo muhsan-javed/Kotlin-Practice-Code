@@ -16,66 +16,62 @@ fun main() {
 
     // Q 1
     // outer loop Rows
-    /*for (i in 0 until n) {
+    for (i in 0 until n) {
         //inner loop Cols
         for (j in 0 until m) {
             print("*")
         }
         println("")
-    }*/
+    }
 
 
-    /*
     // Q 2 Hollow Rectangle
     //outer loop
-    for (i in 1..n){
+    for (i in 1..n) {
         //inner loop
-        for (j in 1..m){
+        for (j in 1..m) {
             //Cell -> (i,j)
-            if (i == 1 || j==1 || i==n || j==m)
+            if (i == 1 || j == 1 || i == n || j == m)
                 print("*")
             else
                 print(" ")
         }
         println()
-    }*/
+    }
 
-    /*val n = 5
-    val m = 4
+
     // Q 3 Half Pyramid
     // outer loop
-    for (i in 1..n){
+    for (i in 1..n) {
         // inner
-        for (j in 1..i){
+        for (j in 1..i) {
             print("*")
         }
         println()
-    }*/
+    }
 
 
-    /*val n = 5
-    val m = 4
     // Q 4 Inverted Half Pyramid
     // outer loop
-    for (i in 1..n){
+    for (i in 1..n) {
         //inner
-        for (j in 1..i){
+        for (j in 1..i) {
             print("*")
         }
         println()
-    }*/
+    }
 
 
     // Q 5 Inverted Half Pyramid (rotated by 180 deg)1
     // outer loop Rows
-    for (i in 1..n){
+    for (i in 1..n) {
         // inner loop -> space print
-        for (j in 1..n-i){
+        for (j in 1..n - i) {
             print(" ")
         }
 
         // Inner Loop -> Star print
-        for (j in 1..i){
+        for (j in 1..i) {
             print("*")
         }
         println()
@@ -83,9 +79,9 @@ fun main() {
 
     // Q 6 Half Pyramid with Numbers
     // Outer Loop
-    for (i in 1..n){
+    for (i in 1..n) {
         // inner
-        for (j in 1..i){
+        for (j in 1..i) {
             print("$j  ")
         }
         println()
@@ -93,9 +89,9 @@ fun main() {
 
     // Q 7 Inverted Half Pyramid with Numbers
     // outer loop
-    for (i in 1..n){
+    for (i in 1..n) {
         //inner
-        for (j in 1..n-i+1){
+        for (j in 1..n - i + 1) {
             print("$j  ")
         }
         println()
@@ -103,9 +99,9 @@ fun main() {
 
     // Q 8 Floyd s Triangle
     var number = 1
-    for (i in 1..n){
+    for (i in 1..n) {
         //inner
-        for (j in 1..i){
+        for (j in 1..i) {
             print("$number ")
             number++
         }
