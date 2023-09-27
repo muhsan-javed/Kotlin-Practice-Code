@@ -42,5 +42,5 @@ fun main() {
         println("Sum is: $eachText")
     }
 
-    for ()
+
 }
