@@ -22,6 +22,4 @@ fun main() {
 
     secondNum--
     println(secondNum)
-
-
 }

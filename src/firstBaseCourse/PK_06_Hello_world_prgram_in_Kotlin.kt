@@ -1,8 +1,7 @@
 import java.util.*
 
-fun main()
-{
-     // Class 1 - 10
+fun main() {
+    // Class 1 - 10
 //    println("Hello world")
 //    var a = 1000
 //    var b = 35.4
@@ -15,7 +14,7 @@ fun main()
 //    val marks : Int = 44
 //    println(marks)
 
-     // Class 10
+    // Class 10
 //     var a : String
 //     a = "Hey!"
 //     a = "Hello!" // Mutable Variable
@@ -28,7 +27,7 @@ fun main()
 //     name = "Ali" // Error
 //     println(name)
 
-     // Class 11
+    // Class 11
 
 //     var a = 23
 //     var b = 23
@@ -48,16 +47,15 @@ fun main()
 //     println("Multiplication : ${firstNumber * secondNumber}")
 //     println("Division : ${firstNumber / secondNumber}")
 
-      // Class 12
+    // Class 12
 
-      val read = Scanner(System.`in`)
+    val read = Scanner(System.`in`)
 
-     println("Enter Number")
-     var firstNu = read.nextInt()
-     println("you can enter this Number "+ firstNu)
-     var secondNu = read.nextFloat()
-     println("you can enter this Number "+ secondNu)
-        
+    println("Enter Number")
+    var firstNu = read.nextInt()
+    println("you can enter this Number " + firstNu)
+    var secondNu = read.nextFloat()
+    println("you can enter this Number " + secondNu)
 
 
- }
+}
