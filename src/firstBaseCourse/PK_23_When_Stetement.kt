@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
     val day = 4
-    val result = when (day){
+    val result = when (day) {
         1 -> "Monday"
         2 -> "Tuesday"
         3 -> "Wednesday"
