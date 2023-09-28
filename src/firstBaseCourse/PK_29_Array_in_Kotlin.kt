@@ -5,7 +5,7 @@ fun main() {
 
     // Class 30
     // Class 31
-    val cities = arrayOf("Kamber","Rawalpindi","Islamabad","Lahore","Karachi")// Create Array
+    val cities = arrayOf("Kamber", "Rawalpindi", "Islamabad", "Lahore", "Karachi")// Create Array
 //    println(cities[0]) // Printing Array
 //    println(cities[1])
 //    println(cities[2])
@@ -21,7 +21,7 @@ fun main() {
 
     // Class 32
 
-    for (a in cities){
+    for (a in cities) {
         println(a)
     }
 

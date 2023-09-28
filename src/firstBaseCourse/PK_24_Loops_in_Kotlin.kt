@@ -33,9 +33,9 @@ fun main(args: Array<String>) {
 
     // Class 28 Break and Continue Statement
     var i = 0
-    while (i<10){
+    while (i < 10) {
 
-        if (i == 5){
+        if (i == 5) {
             i++
             continue
         }

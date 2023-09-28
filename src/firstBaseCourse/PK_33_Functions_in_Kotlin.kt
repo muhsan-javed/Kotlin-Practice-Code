@@ -33,9 +33,10 @@
 // Class 35 Function with Return Type
 
 fun main() {
-   var a = sum(80,20)
+    var a = sum(80, 20)
     println(a)
 }
-fun sum(firstNumber:Int , secondNumber: Int): Int{
+
+fun sum(firstNumber: Int, secondNumber: Int): Int {
     return (firstNumber + secondNumber)
 }
