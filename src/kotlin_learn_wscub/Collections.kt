@@ -2,7 +2,7 @@ package kotlin_learn_wscub
 
 
 fun main() {
-        // ****************** LIST ************************
+    // ****************** LIST ************************
 //    val list  = listOf("Muhsan", "uzair", "Brohi", 2, true , listOf(1,2,3) )
 //
 //    println(list)
@@ -31,7 +31,7 @@ fun main() {
 
     // ****************** MAP ************************
 
-    val map = mapOf<Any, String>(1 to "Muhsan", "Ali" to "Javed" ,true to "Check")
+    val map = mapOf<Any, String>(1 to "Muhsan", "Ali" to "Javed", true to "Check")
 //    val map = mapOf<Any>(1 to "Muhsan", 22 to "Ali", true)
 
 //    println(map)
