@@ -28,5 +28,69 @@ fun main() {
     var check : Boolean
     println(number.microseconds)
 
+    // \n , \t , \b
+    val text1 = "Hello, Muhsan"
+    println(text1)
+    //Or
+    val text2 = "Hello, Muhsan\n"
+    println(text2)
+    //Or
+    val text3 = "Hello, \nJAved\n "
+    println(text3)
 
+    var sen = """ Hello
+        | Muhsan
+        | Javed
+    """.trimMargin()
+
+    println(sen)
+
+    // Kotlin Type Conversion
+
+    // Type conversion is a process in which one  data tyoe variable is converted into another data type
+
+    var nums = 10
+    var num2 : Long = nums.toLong()
+
+    var nume : Long = 10250
+    var num:Int = nume.toInt()
+
+    var ss:Double = 10225.55
+    var sss:Long = ss.toLong()
+
+    var string = "10"
+    var n :Int = string.toInt()
+    println(n+10)
+
+    // Kotlin Operator
+    // Arithmetic Operation
+    var a = 10
+    var b = 5
+    println(a+b)
+    println(a-b)
+    println(a*b)
+    println(a/b)
+    println(a%b)
+
+    // Relation Operation
+    val max = if (a > b){
+        println("a is greate than B")
+        a
+    } else if (a <= b)
+        {
+        println("B is greater than a")
+        b
+    } else {
+        println("Value Not Matching")
+    }
+    println("max = $max")
+
+    // Assignment Operation
+    var numbers = 10
+    numbers+= 5
+    println(numbers)
+
+    // Unary Operation
+    // Bitwise Operation
+    // Logical Operation
 }
