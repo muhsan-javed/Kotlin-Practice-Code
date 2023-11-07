@@ -64,16 +64,16 @@ fun main() {
 
     // Kotlin Operator
     // Arithmetic Operation
-    var a = 10
+   /* var a = 10
     var b = 5
     println(a+b)
     println(a-b)
     println(a*b)
     println(a/b)
     println(a%b)
-
+*/
     // Relation Operation
-    val max = if (a > b){
+   /* val max = if (a > b){
         println("a is greate than B")
         a
     } else if (a <= b)
@@ -83,7 +83,7 @@ fun main() {
     } else {
         println("Value Not Matching")
     }
-    println("max = $max")
+    println("max = $max")*/
 
     // Assignment Operation
     var numbers = 10
@@ -91,6 +91,22 @@ fun main() {
     println(numbers)
 
     // Unary Operation
+    var a = 10
+    var b = 5
+    var flag = true
+    println("+a : ${+a}")
+    println("-b : ${-b}")
+    println("a++ : ${a++}")
+    println(a)
+    println("--b : ${b--}")
+    println(b)
+    println("! Flag : ${!flag}")
+
+
     // Bitwise Operation
+    var q = 10 //20//40//80//160
+    var w = 2
+    println(q)
+    println(q.shl(w))
     // Logical Operation
 }
