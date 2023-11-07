@@ -106,7 +106,14 @@ fun main() {
     // Bitwise Operation
     var q = 10 //20//40//80//160
     var w = 2
-    println(q)
-    println(q.shl(w))
+//    println(q)
+    println("q.shl(w) "+ q.shl(w))
+    println("q.shr(w) "+q.shr(w))
+    println("a.ushr(w) "+a.ushr(w))
+    println("a.and(w) "+a.and(w))
+    println("a.or(w) "+a.or(w))
+    println("a.xor(w) "+a.xor(w))
+    println("a.inv() "+a.inv())
+
     // Logical Operation
 }
