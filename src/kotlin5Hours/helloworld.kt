@@ -1,5 +1,6 @@
 package kotlin5Hours
 
+import java.util.Scanner
 import kotlin.time.Duration.Companion.microseconds
 
 //class first {
@@ -49,8 +50,8 @@ fun main() {
 
     // Type conversion is a process in which one  data tyoe variable is converted into another data type
 
-    var nums = 10
-    var num2 : Long = nums.toLong()
+//    var nums = 10
+//    var num2 : Long = nums.toLong()
 
     var nume : Long = 10250
     var num:Int = nume.toInt()
@@ -114,6 +115,40 @@ fun main() {
     println("a.or(w) "+a.or(w))
     println("a.xor(w) "+a.xor(w))
     println("a.inv() "+a.inv())
-
     // Logical Operation
+
+    // Kotlin Standard Input/output
+    val inout = Scanner(System.`in`)
+    var age :Int
+    println("Age")
+    //age= inout.nextInt()
+//    println("Your age is $age")
+
+//    println("Enter ypur name")
+//    val name = readLine()
+//    println("Your name is $name")
+
+//    var ages = Integer.valueOf(readLine())
+//    println("Your age is $ages")
+
+    // Control Flow
+    // if-else expression
+    val num1 = 10
+    val num2 = 20
+
+   /* if (num1 > num2){
+        println("$num1 is greater than $num2")
+    }else {
+        println("$num1 is smaller than $num2")
+    }*/
+
+    val result = if (num1 > num2){
+       "$num1 is greater than $num2"
+    }else {
+       "$num1 is smaller than $num2"
+    }
+    println(result)
+
+    // if-else if-else ladder expression
+    // nested if expression
 }
