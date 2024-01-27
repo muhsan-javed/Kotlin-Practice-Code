@@ -6,8 +6,8 @@ import kotlin.jvm.internal.Intrinsics.Kotlin
 fun main() {
 
     /*
-    A class is a blueprint, and an object is an instance of a class.
-    Usually, we define a class and then create multiple instances of that class by creating Objects.
+     A class is a blueprint, and an object is an instance of a class.
+     Usually, we define a class and then create multiple instances of that class by creating Objects.
     */
 
     val kb = Creating_Objects_of_Classes()
