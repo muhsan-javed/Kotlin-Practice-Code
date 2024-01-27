@@ -10,7 +10,6 @@ class FirstClass {
             println("Hello world")
 
 
-
         }
     }
 
