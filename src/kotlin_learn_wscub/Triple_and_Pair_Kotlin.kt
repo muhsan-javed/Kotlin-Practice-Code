@@ -13,8 +13,14 @@ class Triple_and_Pair_Kotlin {
 
             println("${name.first} ${name.second}  ${name.second.second.first}  ${name.second.second.second}")
 
-            //val number = Triple("Hello","World", Triple(1, "a" Triple("A","B", true)))
+//            val number = Triple("Hello","World", Triple(1, "a" Triple("A","B", true)))
 
+
+//            val (x,y,z) = Triple("Hello","World!",1)
+//            println("$x $y $z")
+            val number = Triple("Hello","World!",1)
+
+            println("$number")
 
         }
     }
