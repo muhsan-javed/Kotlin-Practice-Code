@@ -2,6 +2,20 @@ package kotlin_learn_wscub
 
 
 fun main() {
+    // ********************  Inheritance *********************************
+
+    /*
+    > It is the mechanism by which one class is allow to inherit the features(fields and methods) of another class.
+
+    > One object acquires all the properties and behaviors of a parent object.
+
+    > It is an important part of OOPs (Object-Oriented programing system).
+
+    > SubClass can reuse methods and  fields of the parent class.
+
+    > By default, Kotlin classes are final - they can't be inherited. To make a class inheritable, mark it with the open keyword.
+
+    */
 
     val classB = ClassB()
 
