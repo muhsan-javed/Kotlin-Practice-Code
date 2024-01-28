@@ -9,6 +9,7 @@ fun main() {
 
     > One object acquires all the properties and behaviors of a parent object.
 
+
     > It is an important part of OOPs (Object-Oriented programing system).
 
     > SubClass can reuse methods and  fields of the parent class.
