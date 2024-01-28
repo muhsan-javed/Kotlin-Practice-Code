@@ -43,8 +43,19 @@ fun main() {
     /*
     In Kotlin or any other programming language like Java and C#.
 
-    whenever we want to call the method or whenever we want to access the members of a class then we make the object of the class and with the help of that object, we access the members of the class. */
+    whenever we want to call the method or whenever we want to access the members of a class then we make the object of the class and with the help of that object, we access the members of the class.
 
+    In some languages like Java and C#, we use static keyword to declare the members of the class and use them without making any object i.e. just call them with the help of class name.
+
+    There is nothing called static in Kotlin. So, in Kotlin, we use a companion object.
+     */
+
+    val cc = CompanionClass()
+    println("First No is: "+ cc.firstNo)
+    println("Sum is: "+ cc.AddTwo(5,6))
+
+    println("Second No is: "+ CompanionClass.secondNo)
+    println("Product is: "+ CompanionClass.Product(5,5))
 }
 
 //class KotlinBasic (val a:Int){
@@ -80,15 +91,25 @@ class Creating_Objects_of_Classes {
     var someInt = 10
     var age = 20
 
-
     fun add(a : Int , b:Int): Int{
         return a+b
     }
     val addName = "Hello !!!"
-//    companion object{
-//        @JvmStatic
-//        fun main(args: Array<String>) {
-//
-//        }
-//    }
+
+}
+
+class CompanionClass{
+    var firstNo = 10
+
+    fun AddTwo(a : Int , b:Int): Int{
+        return a+b
+    }
+    companion object{
+        var secondNo = 20
+
+        fun Product(a:Int, b:Int) :Any {
+            return a*b
+        }
+
+    }
 }
