@@ -5,6 +5,7 @@ fun main() {
     // ********************  Inheritance *********************************
 
     /*
+
     > It is the mechanism by which one class is allow to inherit the features(fields and methods) of another class.
 
     > One object acquires all the properties and behaviors of a parent object.
