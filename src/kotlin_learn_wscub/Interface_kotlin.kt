@@ -2,6 +2,16 @@ package kotlin_learn_wscub
 
 
 fun main() {
+
+    // ********************  Interface kotlin *********************************
+    /*
+    => An interface is a reference type.
+    => It is similar to class.
+    => It is a collection of abstract methods.
+    => A class implements an interface, thereby inheriting the abstract methods of the interface.
+    => Only method signature, no-body
+    => Interfaces specify what a class must do and not how. It is the blueprint of the class.
+     */
     val classA = Interface_kotlin()
     val classB = ClassB()
     println("THe no isL "+ classA.firstNo + ", " + classB.firstNo)
