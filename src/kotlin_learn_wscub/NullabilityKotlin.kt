@@ -3,6 +3,7 @@ package kotlin_learn_wscub
 
 fun main() {
 
+    // ****************** Nullability in Kotlin ************************
     var name : String? = null
     //name = "John"
 
@@ -11,7 +12,6 @@ fun main() {
     }
 
 }
-
 
 class NullabilityKotlin {
 }
