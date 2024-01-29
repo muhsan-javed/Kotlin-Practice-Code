@@ -1,7 +1,5 @@
 package kotlin_learn_wscub
 
-import kotlin.jvm.internal.Intrinsics.Kotlin
-
 
 fun main() {
 
@@ -11,10 +9,10 @@ fun main() {
      Usually, we define a class and then create multiple instances of that class by creating Objects.
     */
 
-    val kb = Creating_Objects_of_Classes()
+    val kb = CreatingObjectsOfClasses()
     println("the Integer is : ${kb.someInt}")
-    println("Your age  is : ${Creating_Objects_of_Classes().age}")
-    println("Sum  is : ${Creating_Objects_of_Classes().add(10,10)}")
+    println("Your age  is : ${CreatingObjectsOfClasses().age}")
+    println("Sum  is : ${CreatingObjectsOfClasses().add(10,10)}")
 
     // ********************  Constructors *********************************
     /*
@@ -86,7 +84,7 @@ class KotlinBasic {
     }
 }
 
-class Creating_Objects_of_Classes {
+class CreatingObjectsOfClasses {
 
     var someInt = 10
     var age = 20
