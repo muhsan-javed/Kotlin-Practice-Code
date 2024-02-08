@@ -5,9 +5,8 @@ fun main() {
 }
 
 interface iClass {
-    /*
-     ********************  Abstraction Kotlin *********************************
-
+    /********************  Abstraction Kotlin *********************************
+     * 
     => Abstraction is one of the core concepts of Objected Oriented Programming.
     => When there is a scenario that you are aware of what functionalities a class should have,
     => but not aware of how the functionality is implemented or
