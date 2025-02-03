@@ -23,8 +23,9 @@ fun main() {
     var num1 = 14.99
 
     var fatherName = "Javed Hussain"
-
-
+    // var      nameOfVariable: TypeOfVariable = ValueOfVariable
+    // Change   Name          : Type          = Value
+    var lastNem:String = "Brohi"
 
 
 
