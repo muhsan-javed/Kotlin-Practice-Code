@@ -2,14 +2,18 @@ package kotlin_2025
 
 // First Kotlin Code Program
 fun main() {
-
-    var a  =  10
-    var b = 20
-    var c = a+b
-    println(c)
-
     print("HI Kotlin Hello World")
-    print("HI Kotlin Hello World")
+    println("Hi this is print message")
+    print("thsi is next line \n ")
+    print("This is next to next line")
+    printUserId()
+    printUserName()
 
 
+}
+fun printUserId(){
+    println("Printing user id")
+}
+fun printUserName(){
+    println("Printing User Name")
 }
