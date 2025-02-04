@@ -27,4 +27,25 @@ fun main() {
     var name = "Jannat JAN"
 
     // Comparison Operations
+    var dabba1 = 35
+    var dabba2 = 35
+    println(dabba2 == dabba1)
+
+    // Logical Operators
+    val paper1 = 10
+    val paper2 = 11
+
+    if (paper1 > 60 || paper2 > 60){
+         println("I will give Bikes for")
+    }else {
+        println("Chata")
+    }
+
+    var isPassed = true
+    if (!isPassed){
+        println("you are passing")
+    }else{
+        println("you are not passing")
+    }
+
 }
