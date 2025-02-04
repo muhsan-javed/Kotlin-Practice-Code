@@ -2,9 +2,12 @@ package kotlin_2025
 class User(
     val name:String,
     val phone:String,
-    val address:String
-){
-
+    val address:String){
+    fun muhsan(){
+        println(name)
+        println(phone)
+        println(address)
+    }
 }
 fun main() {
     // DataTypes
@@ -28,12 +31,13 @@ fun main() {
     number3.toFloat()
 
     val user1:User = User("Muhsan","0300176464","Qamber,PK")
-    // Printing
-    println("number 1 is $number1")
+    user1.muhsan() // Printing
     // User Details
     println(user1.name)
     println(user1.phone)
     println(user1.address)
+    // Printing
+
 
 
 }
