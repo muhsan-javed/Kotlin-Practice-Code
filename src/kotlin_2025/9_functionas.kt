@@ -26,7 +26,6 @@ fun main() {
     val multiplyAnonymous: (Int, Int) -> Int = { a, b -> a * b }
     println(higherOrderFunction(6, 6, multiplyAnonymous))
 }
-
 fun higherOrderFunction(a: Int, b: Int, operation: (Int, Int) -> Int): Int {
     return operation(a, b)
 }
