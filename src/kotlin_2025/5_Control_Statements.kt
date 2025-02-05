@@ -43,7 +43,7 @@ fun main() {
     println("Enter Marks: ")
     val marks = readln().toInt()
 
-    /*val grade:Char = if (marks in 91..100){
+    val grade:Char = if (marks in 91..100){
        'A'
     } else if (marks<= 90 && marks >= 81){
         'B'
@@ -52,7 +52,7 @@ fun main() {
     } else{
         'F'
     }
-    println("Grade is $grade")*/
+    println("Grade is $grade")
 
     // When Statements
     val grads:Char = when(marks){
