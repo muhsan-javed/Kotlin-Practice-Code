@@ -37,7 +37,4 @@ fun main() {
     println(user1.phone)
     println(user1.address)
     // Printing
-
-
-
 }
