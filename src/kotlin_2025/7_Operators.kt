@@ -3,9 +3,7 @@ package kotlin_2025
 fun main() {
     //  OPERATORS KOTLIN
    /* Operators are the special symbol in programming languages which is used to program special task or special operation.
-   A+B + - / * % a++
-
-     */
+   A+B + - / * % a++ */
     // Arithmetic Operations
     val x = 100
     val y = 50
