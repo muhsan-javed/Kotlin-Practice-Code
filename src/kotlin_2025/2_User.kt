@@ -26,12 +26,6 @@ fun main() {
     // var      nameOfVariable: TypeOfVariable = ValueOfVariable
     // Change   Name          : Type          = Value
     var lastNem:String = "Brohi"
-
-
-
-
-
-
-
+    var last = "Brohi"
 }
 
