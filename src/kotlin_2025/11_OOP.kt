@@ -33,4 +33,26 @@ fun main() {
     val myCar = Car("Toyota", "Corolla", 2020)
     myCar.startEngine()
     myCar.stopEngine()
+
+    // Called the class
+    val student = Student()
+    student.name="Muhsan Javed"
+    student.age=20
+    student.classNumber="10A"
+    println(student.name)
+    println(student.age)
+    println(student.classNumber)
+    student.getName()
+}
+
+//Class
+class Student {
+    // body
+    var name: String = ""
+    var age: Int = 0
+    var classNumber:String = ""
+
+    fun getName(){
+        println("Student Name: $name")
+    }
 }
