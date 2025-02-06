@@ -43,15 +43,22 @@ fun main() {
     println(student.age)
     println(student.classNumber)
     student.getName()
+
+    val st = Student("Muhsan Javed",20,"10th")
+    println(st.name)
 }
 
-//Class
-class Student {
-    // body
-    var name: String = ""
-    var age: Int = 0
+//Class How to Create class
+class Student(
+    //class header & Properties
+    var name: String = "",
+    var age: Int = 0,
     var classNumber:String = ""
-
+) {
+    init {
+        println("Creating object with $name and $age $classNumber")
+    }
+    // body
     fun getName(){
         println("Student Name: $name")
     }
