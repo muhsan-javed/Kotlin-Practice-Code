@@ -1,5 +1,5 @@
 # Kotlin-Practice-Code
- 
+
 It is an open-source, statically typed programming language supported and developed by JetBrains and open-source contributors.
 
 - Kotlin is a modern, statically typed programming language that runs on the Java Virtual Machine (JVM) and can also be compiled into JavaScript or native code. Kotlin is concise, safe, and interoperable with Java, making it a popular choice for developing Android apps, web applications, server-side applications, and more.
